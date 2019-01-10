@@ -772,7 +772,11 @@ footer .copyright a{
 
 /*		Responsive CSS 		*/
 
-@media (max-width: 360px) {
+@media (max-width: 500px) {
+  .hero {
+    background: url('../img/hero_compress_1024px.jpg') no-repeat fixed center center;
+  }
+
 	.featured_on li{
 		display: block;
 		width: 100%;
@@ -838,6 +842,10 @@ footer .copyright a{
 
 
 	/*		Hero section 		*/
+  .hero {
+    background: url('../img/hero_compress_1024px.jpg') no-repeat fixed center center;
+  }
+
 	.hero .caption{
 		margin-left: 0;
 	}
